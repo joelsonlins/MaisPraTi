@@ -6,9 +6,13 @@
 
 const prompt = require("prompt-sync")();
 
-let num = Number(prompt("Informe um número para calcular o fatorial: "))
-let fatorial=1
-for (let i = 1; i <= num; i++){
-    fatorial*=i
+let num = Number(prompt("Informe um número para calcular o fatorial: "));
+let fatorial = 1;
+let i = 1;
+
+while (i <= num) {
+    fatorial *= i;
+    i++;
 }
-console.log("O fatorial de ",num,"é igual a: ",fatorial)
+
+console.log("O fatorial de ", num, "é igual a: ", fatorial);

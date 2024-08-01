@@ -6,34 +6,21 @@
 
 const prompt = require("prompt-sync")();
 
-let num1 = Number(prompt('Digite o primeiro número: '));
-let num2 = Number(prompt('Digite o segundo número: '));
+// let num1 = Number(prompt('Digite o primeiro número: '));
+// let num2 = Number(prompt('Digite o segundo número: '));
 
+let num1 = 56
+let num2 = 98
 
-if (num1 <= 0 || num2 <= 0) {
-    console.log('Os números devem ser positivos.');
-} else {
-    let maior, menor;
-    
-    if (num1 > num2) {
-        maior = num1;
-        menor = num2;
-    } else {
-        maior = num2;
-        menor = num1;
-    }
+let a = num1
+let b = num2
 
-    do {
-        let diferenca = maior - menor;
-        maior = menor;
-        menor = diferenca;
+do{
+    let temp = b
+    b = a%b
+    a = temp
+}while(b!==0)
 
-        if (menor > maior) {
-            let temp = maior;
-            maior = menor;
-            menor = temp;
-        }
-    } while (menor > 0);
+    const MDC = a
 
-    console.log('O maior divisor comum é:', maior);
-}
+console.log(`O maior divisor comum de ${num1} e ${num2} é ${MDC}`)

@@ -15,15 +15,3 @@ for (let i = 1; i <= linhasDoTriangulo; i++) {
   }
   console.log(linha);
 }
-
-for (let i = 1; i <= linhasDoTriangulo; i++) {
-  let linha = " ";
-
-  for (let j = 1; j <= i; j++) {
-    linha += j + " "; 
-
-  }
-  console.log(linha);
-
-  console.log("1"+1)
-}
