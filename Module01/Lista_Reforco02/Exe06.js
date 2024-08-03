@@ -14,6 +14,7 @@ while (num > 0) {
     
     num = (num - (num % 10)) / 10;
 }
+console.log(num)
 
 if (palindromo==numInter){
     console.log("O número é um palíndromo")
