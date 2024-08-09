@@ -11,7 +11,6 @@ const prompt = require("prompt-sync")();
 // }
 // console.log(sum);
 
-
 // Encontrar o maior número de um array
 
 // let arr = [10, 20, 30, 40];
@@ -22,8 +21,6 @@ const prompt = require("prompt-sync")();
 //   }
 // }
 // console.log(numM)
-
-
 
 // Reverter um Array
 // let arr = [10, 20, 30, 40, 50];
@@ -49,16 +46,16 @@ const prompt = require("prompt-sync")();
 // console.log(arrPar);
 
 // Contar as ocorrências de um valor
-// let arr = [10, 20, 35, 40, 55, 60, 10];
-// let ocorrencias = 0
-// let valor = Number(prompt("Qual o valor para verificar: "))
+let arr = [10, 20, 35, 40, 55, 60, 10];
+let ocorrencias = 0
+let valor = Number(prompt("Qual o valor para verificar: "))
 
-// for (let i = 0; i < arr.length; i++) {
-//   if (arr[i] === valor) {
-//     ocorrencias++
-//   }
-// }
-// console.log("O valor aparece ",ocorrencias," vezes")
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === valor) {
+    ocorrencias++
+  }
+}
+console.log("O valor aparece ",ocorrencias," vezes")
 
 //arrays/vetores multidimencionais
 
@@ -74,7 +71,6 @@ const prompt = require("prompt-sync")();
 //         console.log(`Elemento na posição [${i}][${j}]: ${matriz[i][j]}`);
 //     }
 // }
-
 
 //Somar duas matrizes
 // let matrizA =[
@@ -102,18 +98,17 @@ const prompt = require("prompt-sync")();
 // }
 // console.table(matrizC)
 
-
 // some a diagonal principal de uma matriz
 
-let matriz = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
+// let matriz = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ]
 
-let soma = 0;
+// let soma = 0;
 
-for (let i = 0; i < matriz.length; i++) {
-    soma += matriz[i][i]
-}
-console.log(soma)
+// for (let i = 0; i < matriz.length; i++) {
+//     soma += matriz[i][i]
+// }
+// console.log(soma)

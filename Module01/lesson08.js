@@ -12,5 +12,5 @@ livros.push('Sherlock Holmes') //adiciona no final do array
 livros.unshift('1984')//adiciona no inicio do array
 livros.pop() //remove o ultimo elemento do array
 livros.shift() //remove o primeiro elemento do array
-livros.splice()
+livros.splice(2, 0, 'Animais Fantasticos') // exclui a partir do primeiro parametro, a quantidade do segundo parametro e adiciona os proximos parametros escritos
 console.log(livros)
