@@ -36,7 +36,7 @@ Alguns cursos abaixo são obrigatórios e outros são opcionais mas todos estão
 - [x] Explore Conhecimentos e Projetos de TI
 - [x] Primeiros passos: Raciocínio lógico e programação com Python
 - [x] Modelagem de Dados - Introdução a Banco de Dados
-- [ ] Implementadno Banco de Dados
+- [x] Implementadno Banco de Dados
 - [ ] Administrando Banco de Dados
 - [ ] Letramento Digital
 - [x] Fundamentos de TI: Hardware  Software
