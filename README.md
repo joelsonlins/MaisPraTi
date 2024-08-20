@@ -1,4 +1,4 @@
-![MaisPraTI](https://scontent.fmcz3-1.fna.fbcdn.net/v/t39.30808-6/359835635_750955903702118_1296606229060472058_n.png?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHqaSSB3dw0ttEFm6npem_kz5vWmlYUK-PPm9aaVhQr42BkZ35C5JVFn2OdQU-Ky05GaaqWBtsvgK0GetFMSHs0&_nc_ohc=r4SLnv-I7T4Q7kNvgEWOTjB&_nc_ht=scontent.fmcz3-1.fna&oh=00_AYAh8fElR7MJCww5IdUhUakSlldOpzxxsTvWV2uAI59jFg&oe=66AEE039)
+![MaisPraTI](https://media.licdn.com/dms/image/v2/C4D1BAQE-hgWmZw6vMQ/company-background_10000/company-background_10000/0/1594408985136/maisprati_cover?e=2147483647&v=beta&t=O6ZZa3jETSjW2xJveLKOoowLAMpnPwwJLePTvaOoYVw)
 
 # 💻☕BootCamp FullStack(Java) - Grupo +PraTi e Codifica - Turma 2(2024)
 
