@@ -1,0 +1,1 @@
+{ nome: "João", idade: 20, cidade: "São Paulo" }
