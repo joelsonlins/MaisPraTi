@@ -5,8 +5,8 @@
 +PraTi é um movimento da sociedade, sem fins lucrativos, que busca encontrar e capacitar novos talentos da área de TI. Um movimento para criar novas oportunidades na economia e transformar o modo como a tecnologia é vista pelas pessoas.
 
 ## Tópicos Gerais:
-- [ ]  Introdução à Lógica de Programação (7 Aulas)
-- [ ]  Introdução ao Controle de Versão com Git e Github (2 Aulas)
+- [x]  Introdução à Lógica de Programação + Estrutura de Dados (17 Aulas) 
+- [x]  Introdução ao Controle de Versão com Git e Github (3 Aulas)
 - [ ]  Fundamentos do Desenvolvimento Fron-End(13 Aulas)
 - [ ]  Trilha Complementar: Design para quem não é Designer
 - [ ]  Desenvolvendo Front-End com ReactJs(13 Aulas)
@@ -50,6 +50,10 @@ Alguns cursos abaixo são obrigatórios e outros são opcionais mas todos estão
 - [ ] Trilha Automação de Testes
 - [ ] Trilha Segurança Cibernética
 - [ ] Trilha Testes de Software
+
+## Atividades e Projetos
+
+- [Exercícios que contemplam as operações fundamentais, estruturas de contrle condicional e de repetição.](https://github.com/joelsonlins/MaisPraTi/tree/main/Module01/Lista_De_Exercicios01)
 
 **Contatos:**
 - [Website](https://www.maisprati.com.br/)
