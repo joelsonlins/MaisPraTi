@@ -33,10 +33,12 @@ const empresa = {
   ]
 };
 
-// Iterar sobre os departamentos e seus funcionários
-for (const departamento of empresa.departamentos) {
+// Iterar sobre os departamentos usando for...in
+for (const i in empresa.departamentos) {
+  const departamento = empresa.departamentos[i];
   console.log(`Departamento: ${departamento.nome}`);
   
+  // Iterar sobre os funcionários usando for...of
   for (const funcionario of departamento.funcionarios) {
     console.log(`- Funcionário: ${funcionario.nome}, Cargo: ${funcionario.cargo}`);
   }

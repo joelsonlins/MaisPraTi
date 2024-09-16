@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Formulário Aula</h1>
+  <form action="">
+    <label for="nome">Nome Completo:</label>
+    <input type="text" name="nome" id="nome">
+
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email">
+
+    <label for="senha">Senha:</label>
+    <input type="text" name="senha" id="senha" >
+
+    <label for="confirme-senha">Confirme sua senha:</label>
+    <input type="password" name="confirme-senha" id="confirme-senha" >
+
+    <label for="sexo">Sexo:</label>
+    <select name="sexo" id="sexo">
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+      <option value="outro">Outro</option>
+    </select>
+    <label for="data">Data:</label>
+    <input type="date" name="data-nascimento" id="data-nascimento">
+    <label for="pais">Pais:</label>
+    <select name="pais" id="pais">
+      <option value="">Brasil</option>
+      <option value="">Argentina</option>
+      <option value="">EUA</option>
+      <option value="">Uruguai</option>
+    </select>
+    <fieldset>
+      <legend>Preferência de Comunicação</legend>
+      <input type="checkbox" name="email-novidades" id="email-novidades">
+      <label for="email-novidades">Receber e-mails de novidades</label><br>
+      <input type="checkbox" name="email-novidades" id="email-novidades">
+      <label for="email-novidades">Receber SMS de novidades</label>
+    </fieldset>
+    <br>
+
+    <label for="foto-perfil">Foto de perfil</label>
+    <input type="file" name="foto-perfil" id="foto-perfil"><br>
+    <button type="submit">Cadastrar</button>
+
+
+  </form>
+</body>
+</html>

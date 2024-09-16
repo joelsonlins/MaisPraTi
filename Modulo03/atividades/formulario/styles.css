@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+text-align: center;
+}
+form {
+  padding: 10px;
+  background-color: rgb(217, 220, 224);
+  margin: 20px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+}
+form >*, h1{
+  margin: 3px;
+}
+button{
+  border-radius: 3px;
+  border: none;
+  background-color: black;
+  color: white;
+  height: 30px;
+ 
+}
+label{
+  font-weight: bold;
+}

@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+h1{
+  margin-bottom: 10px;
+}
+.calc{
+padding: 20px;
+border: 10px;
+border-radius: 10px;
+box-shadow: 0 4px 10px black;
+width: 300px;
+background-color: #A5ADDE;
+}
+.visor{
+  
+  color: #62678F;
+  width: 100%;
+  height: 50px;
+  background-color: #EFF1FD;
+  text-align: right;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+}
+.teclas{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.botao {
+  padding: 20px;
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #ccc;
+  }
+  &.operador{
+    background-color: #62678F;
+    color: white;
+    &:hover{
+      background-color: #ce761d;
+    }
+  }
+}
