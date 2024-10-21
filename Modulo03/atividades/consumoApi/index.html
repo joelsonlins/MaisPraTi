@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="top">
+    <h1>Consulta de Endereço</h1>
+  </header>
+
+  <form method="get" action=".">
+    <div class="address__cep">
+      <input type="text" name="cep__info" id="cep__info" size="10" maxlength="9"
+      onblur="pesquisacep(this.value)" placeholder="CEP">
+      <input type="text" name="address" id="endereco">
+    </div>
+    <p id="alerta"></p>
+    <div class="address__local">
+      <input type="text" name="bairro" id="bairro">
+      <input type="text" name="cidade" id="cidade">
+      <input type="text" name="estado" id="estado">
+    </div>
+  </form>
+<script src="./script.js"></script>
+
+
+</body>
+
+</html>

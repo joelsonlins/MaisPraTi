@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+
+.menu {
+  width: 200px;
+  background-color: #2A2D41;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 18px;
+}
+.menu ul li a:hover::before{
+  content: "| ";
+  
+  color: #2A2D41;
+  
+
+}
+
+.menu ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}

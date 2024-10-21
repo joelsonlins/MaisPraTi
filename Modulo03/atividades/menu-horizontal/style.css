@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.barraSup{
+  display: flex;
+  justify-content: space-around;
+  background-color: #EBEBEB;
+  height: 80px;
+  align-items: center;
+}
+.menu ul{
+  display: flex;w
+  
+}
+.menu ul>li{
+font-size: 16px;
+margin-left: 20px;
+list-style-type: none
+}
+.menu ul>li:hover{
+text-decoration: underline;
+}
+.botao{
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007DE3;
+  color: white;
+  font-size: 16px;
+}

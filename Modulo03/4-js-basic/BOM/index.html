@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM - Browser Object Model</title>
+
+    <script>
+        let myWindow
+
+        function openWin(){
+            myWindow = window.open("","myWindow", "width=200, height=100")
+            myWindow.document.write("<p>Nova Janela Aberta!</p>")
+        }
+
+        function closeWin(){
+            if(myWindow){
+                myWindow.close()
+            }
+        }
+
+        let height = window.screen.availHeight
+        let width = window.screen.availWidth
+
+        document.write('Altura do navegador:' + height + 'px<br>')
+        document.write('Largura do navegador:' + width + 'px<br>')
+
+        window.setTimeout(()=>{
+            document.write('Olá, muito!<br>')
+        }, 3000)
+
+        let i = 10
+
+        let j = window.setInterval(()=>{
+            document.write(i + '<br>')
+            i--
+            if (i === 0){
+                clearInterval(j)
+                document.write('Contagem Finalizada! <br>')
+            }
+        }, 1000)
+
+        function redirectTo(url){
+            window.location.href = url
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="openWin()">Abrir Janela</button>
+    <button onclick="closeWin()">Fechar Janela</button>
+    <button onclick="window.print()">Imprimir Janela</button>
+
+    <button onclick="redirectTo('https://www.google.com.br/?hl=pt-BR')">Acessar Google</button>
+   
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 5px;
+  &>*{
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

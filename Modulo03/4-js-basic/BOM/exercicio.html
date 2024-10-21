@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 id="textToChange">Texto inicial!</h1>
+  <button onclick="alteraTexto()">Mudar texto</button>
+  <button onclick="iniciarContador()">Iniciar Contador</button>
+  <button onclick="voltar()">Voltar</button>
+  <button onclick="avancar()">Avançar</button>
+  <p id="contadorDisplay"></p>
+  <br>
+
+  <script>
+    let toChange = document.querySelector('#textToChange');
+    let contadorDisplay = document.querySelector('#contadorDisplay');
+
+    //altera o texto do 'h1 com id="textToChange" após 3 segundos'
+    function alteraTexto() {
+      window.setTimeout(() => {
+        toChange.innerHTML = 'Olá, muito!<br>';
+      }, 3000);
+    }
+
+    //inicia um contador decrescente dentro do 'p'
+    function iniciarContador() {
+      let i = 10;
+
+      let j = window.setInterval(() => {
+        contadorDisplay.innerHTML = i + '<br>'; 
+        i--;
+        if (i < 0) {
+          clearInterval(j);
+          contadorDisplay.innerHTML = 'Contagem Finalizada! <br>';
+        }
+      }, 1000);
+    }
+    //avança a página
+    function voltar() {
+      window.history.back();
+    }
+
+    //volta a página
+    function avancar() {
+      window.history.forward();
+    }
+  </script>
+
+  <!-- Um botão que altera o texto após 3 segundos (usando setTimeout).
+   Outro botão exibe um contador que atualiza a cada segundo (usando setInterval). -->
+
+   <!-- Crie botões "voltar" e "avançar"  que utilizam o histórico de navegação 
+    do navegador (usando window.history.back() e window.history.forward())-->
+</body>
+
+</html>
