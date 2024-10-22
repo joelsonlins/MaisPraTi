@@ -85,7 +85,3 @@ A seguir estão algumas capturas de tela do site:
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
-```
-Esse `README.md` fornece uma descrição detalhada do projeto, a estrutura da página, as tecnologias usadas e instruções para executar o projeto localmente, além de imagens ilustrativas e o link para o deploy. A inclusão das imagens pode ajudar na visualização do conteúdo e na apresentação geral do projeto.
-```
