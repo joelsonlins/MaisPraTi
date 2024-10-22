@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArquiDesign - Soluções em Arquitetura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+            transition: color 0.3s;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ecf0f1 !important;
+        }
+        main {
+            background-color: #ecf0f1;
+            padding: 40px 0;
+        }
+        aside {
+            background-color: #bdc3c7;
+            padding: 20px;
+        }
+        aside ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        aside ul li a {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        aside ul li a:hover {
+            color: #34495e;
+        }
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .project-gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .services-section {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+        }
+        .service-item {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .service-item i {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">ArquiDesign</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <section class="col-lg-8">
+                    <h1 class="mb-4">Bem-vindo à Elo3 Arquitetura</h1>
+                    <img src="./src/img/projeto1.webp" alt="Projeto arquitetônico moderno" class="img-fluid mb-4">
+                    <p>A Elo3 Arquitetura é uma empresa líder em soluções arquitetônicas, dedicada a criar espaços inovadores e funcionais que inspiram e transformam vidas. Com uma equipe de arquitetos talentosos e experientes, estamos comprometidos em oferecer projetos únicos que atendam às necessidades e sonhos de nossos clientes.</p>
+                    <p>Nosso portfólio abrange desde residências modernas até edifícios comerciais de grande escala, sempre com foco na sustentabilidade e na eficiência energética. Acreditamos que a boa arquitetura não só melhora a qualidade de vida das pessoas, mas também contribui para um futuro mais sustentável e harmonioso.</p>
+                </section>
+                <aside class="col-lg-4">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#" target="_blank">Instagram</a></li>
+                        <li><a href="#" target="_blank">facebook</a></li>
+                        <li><a href="#" target="_blank">youtube</a></li>
+                        <li><a href="#" target="_blank">whatsapp</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <section id="projetos" class="project-gallery py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossos Projetos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./src/img/projeto2.webp" alt="Projeto Residencial Moderno" class="img-fluid">
+                    <h4 class="mt-3">Residência Moderna</h4>
+                    <p>Casa contemporânea com design sustentável</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./src/img/projeto3.webp" alt="Edifício Comercial" class="img-fluid">
+                    <h4 class="mt-3">Projetos empresariais</h4>
+                    <p>Remodelo seu negócio tornando mais usual</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./src/img/projeto4.webp" alt="Projeto de Interiores" class="img-fluid">
+                    <h4 class="mt-3">Design de Interiores</h4>
+                    <p>Apartamento luxuoso com acabamentos sofisticados</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-4 service-item">
+                    <i class="fas fa-home"></i>
+                    <h4>Projetos Residenciais</h4>
+                    <p>Criamos casas únicas que refletem seu estilo de vida e personalidade.</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <i class="fas fa-building"></i>
+                    <h4>Projetos Comerciais</h4>
+                    <p>Desenvolvemos espaços comerciais funcionais e impressionantes.</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h4>Design de Interiores</h4>
+                    <p>Transformamos ambientes internos com designs elegantes e práticos.</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <i class="fas fa-tree"></i>
+                    <h4>Paisagismo</h4>
+                    <p>Criamos áreas externas harmoniosas que complementam sua arquitetura.</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <i class="fas fa-recycle"></i>
+                    <h4>Projetos Sustentáveis</h4>
+                    <p>Desenvolvemos soluções ecológicas para uma arquitetura responsável.</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <i class="fas fa-hard-hat"></i>
+                    <h4>Gerenciamento de Obras</h4>
+                    <p>Supervisionamos a execução do projeto para garantir qualidade e prazos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Elo3 Arquitetura - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

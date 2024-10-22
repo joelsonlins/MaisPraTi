@@ -151,6 +151,12 @@ li a:hover {
   border-radius: 4px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.banner__principal__cta a:hover,
+.about__text a:hover,
+.card__serv a:hover,
+.btn__form:hover{
+  opacity: 0.8;
+}
 .banner__principal_img {
   width: 100%;
   height: 100%;
