@@ -1,0 +1,114 @@
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.todo-container {
+  background: #343a40;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+.list-group-item {
+  background-color: #343a40;
+  border-color: rgba(255,255,255,0.1);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #424649;
+}
+
+.btn-icon {
+  padding: 0.25rem 0.5rem;
+  font-size: 1.25rem;
+  transition: color 0.2s ease-in-out;
+  background: none;
+  border: none;
+}
+
+.btn-icon.edit:hover { color: #0dcaf0 !important; }
+.btn-icon.check:hover { color: #198754 !important; }
+.btn-icon.delete:hover { color: #dc3545 !important; }
+
+.liChecked .text {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
+  min-width: 250px;
+  display: none;
+}
+
+.alert.show {
+  display: block;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(100px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.form-control:focus {
+  background-color: #2b3035;
+  border-color: #6c757d;
+  color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(255,255,255,0.1);
+}
+
+.form-control::placeholder {
+  color: #6c757d;
+}
+
+.btn-outline-light:hover {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.todo-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.todo-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.todo-list::-webkit-scrollbar-track {
+  background: #343a40;
+}
+
+.todo-list::-webkit-scrollbar-thumb {
+  background: #6c757d;
+  border-radius: 4px;
+}
+
+.todo-list::-webkit-scrollbar-thumb:hover {
+  background: #5c636a;
+}
+
+.text {
+  word-break: break-word;
+  margin-right: 1rem;
+}
+
+@media (max-width: 576px) {
+  .todo-container {
+      margin: 1rem;
+      padding: 1rem !important;
+  }
+
+  .btn-icon {
+      padding: 0.15rem 0.35rem;
+  }
+}
